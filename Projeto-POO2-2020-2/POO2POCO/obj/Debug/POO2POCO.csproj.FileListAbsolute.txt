@@ -1,0 +1,6 @@
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2POCO\bin\Debug\POO2POCO.dll
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2POCO\bin\Debug\POO2POCO.pdb
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2POCO\obj\Debug\POO2POCO.csproj.AssemblyReference.cache
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2POCO\obj\Debug\POO2POCO.csproj.CoreCompileInputs.cache
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2POCO\obj\Debug\POO2POCO.dll
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2POCO\obj\Debug\POO2POCO.pdb

@@ -1,0 +1,12 @@
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\bin\Debug\POO2EF.dll.config
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\bin\Debug\POO2EF.dll
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\bin\Debug\POO2EF.pdb
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\bin\Debug\EntityFramework.dll
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\bin\Debug\EntityFramework.xml
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\obj\Debug\POO2EF.csproj.AssemblyReference.cache
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\obj\Debug\POO2EF.csproj.CoreCompileInputs.cache
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\obj\Debug\POO2EF.csproj.CopyComplete
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\obj\Debug\POO2EF.dll
+C:\Users\njunior\Documents\projetos\csharp_app\Projeto-POO2-2020-2\POO2EF\obj\Debug\POO2EF.pdb

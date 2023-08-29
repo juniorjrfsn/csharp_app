@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>POO2RestAPICamadas</name>
+    </assembly>
+    <members>
+        <member name="T:POO2RestAPICamadas.SwaggerConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:POO2RestAPICamadas.SwaggerConfig.Register">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:POO2RestAPICamadas.WebApiConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:POO2RestAPICamadas.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:POO2RestAPICamadas.Controllers.EstadoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.EstadoController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.EstadoController.ObterTodos">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.EstadoController.ObterPorID(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.EstadoController.Criar(POO2POCO.ModelData.EstadoPoco)">
+            <summary>
+            
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.EstadoController.Alterar(POO2POCO.ModelData.EstadoPoco)">
+            <summary>
+            
+            </summary>
+            <param name="poco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.EstadoController.Excluir(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:POO2RestAPICamadas.Controllers.MunicipioController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.MunicipioController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.MunicipioController.ObterTodos">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.MunicipioController.ObterPorID(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:POO2RestAPICamadas.Controllers.MunicipioController.ObterPorUF(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="uf"></param>
+            <returns></returns>
+        </member>
+        <member name="T:POO2RestAPICamadas.WebApiApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:POO2RestAPICamadas.WebApiApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
