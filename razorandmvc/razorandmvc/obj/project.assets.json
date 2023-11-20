@@ -12553,11 +12553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\razorandmvc\\razorandmvc.csproj",
+      "projectUniqueName": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\razorandmvc\\razorandmvc.csproj",
       "projectName": "razorandmvc",
-      "projectPath": "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\razorandmvc\\razorandmvc.csproj",
+      "projectPath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\razorandmvc\\razorandmvc.csproj",
       "packagesPath": "C:\\Users\\njunior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\razorandmvc\\obj\\",
+      "outputPath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\razorandmvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -12579,8 +12579,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\Business\\Business.csproj"
+            "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\Business\\Business.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+FjbvabGHIECNH/8RKMdhmSzg1eGQxfhGfBRS+hsDdfGBddMBAhTGxH6wR7JAPDhBY7dhMA0daR+ri1mWOqTEg==",
+  "dgSpecHash": "A8Q0sLzueFSsS/PziwYtKq27ZFvQqYvqzyB8IZaJpdxSe9WZG5GxL2ZbsDFpYhkXEkW/18Ekl6ijAQYx7Avzbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\njunior\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\njunior\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

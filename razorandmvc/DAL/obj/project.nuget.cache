@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xNA6LubxTcyJLMgFRIoCy+YC1EUnM7OmbqnU0b4OM9c/WaLwD9RNT5nfAqWCvyhP09XLHCgUZj6jvOiFMAkDqg==",
+  "dgSpecHash": "+98u3/bk/GRlCNL5zqwobnOm3G1X2ZluHA29+k/FeqqVg17SCZY+BsJ7U+x3JZpULsEw4PizO8Hp0pVx6QFNGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\njunior\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\njunior\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

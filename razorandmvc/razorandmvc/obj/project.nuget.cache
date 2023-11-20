@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vw/82F9JBlg0doSA7wp85wQHlfC4nXxJ45fqnegMPtq0sHPkHQBHOMyqmYtWKC9GVQ8Yy5dOWLJP0TaL8xeYCg==",
+  "dgSpecHash": "Z8QAua6rgzsoHjKRljAkTZNoG5aIOhKR0FJoybWDfp9wdyiccQ/VL77vEyTzMNNZSawsDMUKmRZsP+xccDAVGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\njunior\\Documents\\projetos\\C#APP\\razorandmvc\\razorandmvc\\razorandmvc.csproj",
+  "projectFilePath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\razorandmvc\\razorandmvc\\razorandmvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\njunior\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\njunior\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

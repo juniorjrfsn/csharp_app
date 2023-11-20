@@ -28,7 +28,7 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.MovieName)
@@ -46,6 +46,6 @@
                 @Html.DisplayFor(modelItem => item.ProfitPerItem)
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>
