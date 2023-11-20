@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using ecommerce.Core.Models;
-using ecommerce.Core.Repositories.Interfaces;
-using ecommerce.Core.Services.Interfaces;
+using Model_Service_Repository.Models;
+using Model_Service_Repository.Repositories.Interfaces;
+using Model_Service_Repository.Services.Interfaces;
 
-namespace ecommerce.Core.Services
+namespace Model_Service_Repository.Services
 {
     public class ProductService : IProductService
     {
@@ -14,7 +14,7 @@ namespace ecommerce.Core.Services
         {
             _repo = repo;
         }
-        
+
         public async Task<IEnumerable<Product>> GetAllAsync()
         {
             return await _repo.GetAllAsync();
@@ -33,8 +33,8 @@ namespace ecommerce.Core.Services
 
         public async Task UpdateAsync(Product entity)
         {
-             _repo.Update(entity);
-             await _repo.SaveChangesAsync();
+            _repo.Update(entity);
+            await _repo.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(Product entity)

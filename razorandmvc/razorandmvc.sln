@@ -4,12 +4,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "razorandmvc", "razorandmvc\razorandmvc.csproj", "{35A46456-CA3F-4AA4-B671-CEEB4DB706E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2570A45C-349E-4FDE-838E-BB8404024EC8} = {2570A45C-349E-4FDE-838E-BB8404024EC8}
+		{C5189F2F-072B-4040-A06C-0405B74830BB} = {C5189F2F-072B-4040-A06C-0405B74830BB}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{C5189F2F-072B-4040-A06C-0405B74830BB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{6515E2DB-24AB-4447-B7E4-FC6F0A3E035A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model-Service-Repository", "Model-Service-Repository\Model-Service-Repository.csproj", "{2570A45C-349E-4FDE-838E-BB8404024EC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model-Service-Repository", "Model-Service-Repository\Model-Service-Repository.csproj", "{2570A45C-349E-4FDE-838E-BB8404024EC8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryServicePatternDemo.Core", "..\..\..\..\Desktop\RespositoryServicePatternDemo-master\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\RepositoryServicePatternDemo.Core.csproj", "{69A40D18-C4D4-45AE-83F4-AAB15EA07EEA}"
 EndProject

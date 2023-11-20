@@ -16,6 +16,14 @@ namespace razorandmvc.Pages.Clientes
     public class IndexModel : PageModel
     {
 
+        private readonly IClienteService _clienteService;
+
+        public IndexModel(IClienteService clienteService)
+        {
+            _clienteService =  clienteService;
+        }
+
+
         Repository<Cliente> clienteRepo = new Repository<Cliente>();
         public IList<Cliente> Cliente { get;set; } = default!;
 

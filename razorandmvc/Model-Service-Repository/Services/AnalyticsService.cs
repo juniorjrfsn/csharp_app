@@ -1,22 +1,22 @@
 ﻿using System.Threading.Tasks;
 using Dapper;
 using ecommerce.Core.Database;
-using ecommerce.Core.Models;
 using ecommerce.Core.Models.DataTransferObjects;
-using ecommerce.Core.Services.Interfaces;
 using Microsoft.Data.Sqlite;
+using Model_Service_Repository.Models;
+using Model_Service_Repository.Services.Interfaces;
 
-namespace ecommerce.Core.Services
+namespace Model_Service_Repository.Services
 {
     public class AnalyticsService : IAnalyticsService
     {
         private readonly DbConfig _dbConfig;
-        
+
         public AnalyticsService(DbConfig dbConfig)
         {
             _dbConfig = dbConfig;
         }
-        
+
         /// <summary>
         /// Get total profit.
         /// </summary>
@@ -34,7 +34,7 @@ namespace ecommerce.Core.Services
                 return data;
             }
         }
-        
+
         /// <summary>
         /// Get the most sold product type
         /// </summary>
@@ -74,16 +74,16 @@ namespace ecommerce.Core.Services
                               JOIN Customers C2 on Orders.CustomerId = C2.Id) DESC
                     LIMIT 1;
                 ");
-                
+
                 var topCustomer = await connection.QuerySingleAsync<Customer>(@"
                     SELECT *
                     FROM Customers
-                    WHERE Id = @Id", new {Id = data});
-                
+                    WHERE Id = @Id", new { Id = data });
+
                 return topCustomer;
             }
         }
-        
+
         /// <summary>
         /// Get total amount of orders.
         /// </summary>
@@ -99,7 +99,7 @@ namespace ecommerce.Core.Services
                 return data;
             }
         }
-        
+
         /// <summary>
         /// Get total amount of products.
         /// </summary>
@@ -146,7 +146,7 @@ namespace ecommerce.Core.Services
                     FROM Orders O
                     JOIN Products P ON O.ProductId = P.Id
                     WHERE P.Id = @Id
-                ", new {Id = product.Id});
+                ", new { product.Id });
                 return data;
             }
         }
@@ -165,7 +165,7 @@ namespace ecommerce.Core.Services
                     FROM Orders O
                     JOIN Customers C ON O.CustomerId = C.Id
                     WHERE C.Id = @Id
-                ", new {Id = customer.Id});
+                ", new { customer.Id });
                 return data;
             }
         }

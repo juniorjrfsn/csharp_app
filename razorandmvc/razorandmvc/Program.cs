@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using razorandmvc.EscritorioContextNamespace;
-using razorandmvc.Models; 
+using razorandmvc.Context;
+using razorandmvc.Models;
 using static System.Net.Mime.MediaTypeNames;
 
 var builder = WebApplication.CreateBuilder(args);

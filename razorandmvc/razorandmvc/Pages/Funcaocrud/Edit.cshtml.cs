@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using razorandmvc.EscritorioContextNamespace;
+using razorandmvc.Context;
 using razorandmvc.Models;
 
 namespace razorandmvc.Pages.Funcaocrud
 {
     public class EditModel : PageModel
     {
-        private readonly razorandmvc.EscritorioContextNamespace.EscritorioContext _context;
+        private readonly EscritorioContext _context;
 
-        public EditModel(razorandmvc.EscritorioContextNamespace.EscritorioContext context)
+        public EditModel(EscritorioContext context)
         {
             _context = context;
         }

@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ecommerce_csharp-master",
-    "\\ecommerce_csharp-master\\ecommerce_csharp-master"
+    "\\razorandmvc",
+    "\\razorandmvc\\razorandmvc",
+    "\\razorandmvc\\razorandmvc\\Pages",
+    "\\razorandmvc\\razorandmvc\\Pages\\Clientes",
+    "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master"
   ],
-  "SelectedNode": "\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce.sln",
+  "SelectedNode": "\\razorandmvc\\razorandmvc\\Pages\\Clientes\\Index.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }

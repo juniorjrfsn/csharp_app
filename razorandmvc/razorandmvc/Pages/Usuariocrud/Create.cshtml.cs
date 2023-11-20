@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using razorandmvc.EscritorioContextNamespace;
+using razorandmvc.Context;
 using razorandmvc.Models;
 
 namespace razorandmvc.Pages.Usuariocrud
 {
     public class CreateModel : PageModel
     {
-        private readonly razorandmvc.EscritorioContextNamespace.EscritorioContext _context;
+        private readonly EscritorioContext _context;
 
-        public CreateModel(razorandmvc.EscritorioContextNamespace.EscritorioContext context)
+        public CreateModel(EscritorioContext context)
         {
             _context = context;
         }

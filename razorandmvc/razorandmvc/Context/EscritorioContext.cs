@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using razorandmvc.Models;
 
-namespace razorandmvc.EscritorioContextNamespace;
+namespace razorandmvc.Context;
 
 public partial class EscritorioContext : DbContext
 {

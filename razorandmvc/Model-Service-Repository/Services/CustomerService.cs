@@ -1,20 +1,20 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using ecommerce.Core.Models;
-using ecommerce.Core.Repositories.Interfaces;
-using ecommerce.Core.Services.Interfaces;
+using Model_Service_Repository.Models;
+using Model_Service_Repository.Repositories.Interfaces;
+using Model_Service_Repository.Services.Interfaces;
 
-namespace ecommerce.Core.Services
+namespace Model_Service_Repository.Services
 {
     public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _repo;
-        
+
         public CustomerService(ICustomerRepository repo)
         {
             _repo = repo;
         }
-        
+
         public async Task<IEnumerable<Customer>> GetAllAsync()
         {
             return await _repo.GetAllAsync();

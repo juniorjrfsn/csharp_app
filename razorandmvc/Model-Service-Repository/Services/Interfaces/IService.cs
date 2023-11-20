@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ecommerce.Core.Services.Interfaces
+namespace Model_Service_Repository.Services.Interfaces
 {
     public interface IService<TEntity>
     {

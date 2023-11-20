@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using ecommerce.Core.Contexts;
-using ecommerce.Core.Models;
-using ecommerce.Core.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Model_Service_Repository.Models;
+using Model_Service_Repository.Repositories.Interfaces;
 
-namespace ecommerce.Core.Repositories
+namespace Model_Service_Repository.Repositories
 {
     public class CustomerRepository : ICustomerRepository
     {
@@ -15,12 +15,12 @@ namespace ecommerce.Core.Repositories
         {
             _context = context;
         }
-        
+
         public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
         }
-        
+
         public async Task<IEnumerable<Customer>> GetAllAsync()
         {
             return await _context.Customers.ToListAsync();

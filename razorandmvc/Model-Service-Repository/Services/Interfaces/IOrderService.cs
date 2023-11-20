@@ -1,9 +1,9 @@
-﻿using ecommerce.Core.Models;
+﻿using Model_Service_Repository.Models;
 
-namespace ecommerce.Core.Services.Interfaces
+namespace Model_Service_Repository.Services.Interfaces
 {
     public interface IOrderService : IService<Order>
     {
-        
+
     }
 }

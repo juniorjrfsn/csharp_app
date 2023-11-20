@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using razorandmvc.EscritorioContextNamespace;
+using razorandmvc.Context;
 using razorandmvc.Models;
 
 namespace razorandmvc.Pages.Usuariocrud
 {
     public class DetailsModel : PageModel
     {
-        private readonly razorandmvc.EscritorioContextNamespace.EscritorioContext _context;
+        private readonly EscritorioContext _context;
 
-        public DetailsModel(razorandmvc.EscritorioContextNamespace.EscritorioContext context)
+        public DetailsModel(EscritorioContext context)
         {
             _context = context;
         }

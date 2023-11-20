@@ -2,11 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using ecommerce.Core.Contexts;
-using ecommerce.Core.Models;
-using ecommerce.Core.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Model_Service_Repository.Models;
+using Model_Service_Repository.Repositories.Interfaces;
 
-namespace ecommerce.Core.Repositories
+namespace Model_Service_Repository.Repositories
 {
     public class OrderRepository : IOrderRepository
     {

@@ -1,4 +1,4 @@
-﻿namespace Business.Models
+﻿namespace DAL.Models
 {
     public class Lote
     {

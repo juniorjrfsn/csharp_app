@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ecommerce.Core.Repositories.Interfaces
+namespace Model_Service_Repository.Repositories.Interfaces
 {
     public interface IRepository<TEntity>//, TContext>
         where TEntity : class
