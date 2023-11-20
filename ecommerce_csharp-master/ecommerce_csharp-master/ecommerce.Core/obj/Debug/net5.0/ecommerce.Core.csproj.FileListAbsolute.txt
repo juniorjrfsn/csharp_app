@@ -1,0 +1,5 @@
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce.Core\obj\Debug\net5.0\ecommerce.Core.csproj.AssemblyReference.cache
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce.Core\obj\Debug\net5.0\ecommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce.Core\obj\Debug\net5.0\ecommerce.Core.AssemblyInfoInputs.cache
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce.Core\obj\Debug\net5.0\ecommerce.Core.AssemblyInfo.cs
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce.Core\obj\Debug\net5.0\ecommerce.Core.csproj.CoreCompileInputs.cache

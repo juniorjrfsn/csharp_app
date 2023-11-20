@@ -1,0 +1,217 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = razorandmvc
+build_property.RootNamespace = razorandmvc
+build_property.ProjectDir = C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Cadcli/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkY2xpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Cadcli/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkY2xpXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Cadcli/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkY2xpXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Cadcli/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkY2xpXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Cadcli/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkY2xpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Clientes/Consulta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ29uc3VsdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Empresacrud/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYWNydWRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Empresacrud/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYWNydWRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Empresacrud/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYWNydWRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Empresacrud/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYWNydWRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Empresacrud/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYWNydWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Footer/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGVyXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Funcaocrud/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2FvY3J1ZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Funcaocrud/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2FvY3J1ZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Funcaocrud/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2FvY3J1ZFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Funcaocrud/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2FvY3J1ZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Funcaocrud/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2FvY3J1ZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Pastas/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGFzXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Appsettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BcHBzZXR0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Header0.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9IZWFkZXIwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Sockete/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29ja2V0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Usuariocad/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb2NhZFxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Usuariocrud/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb2NydWRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Usuariocrud/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb2NydWRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Usuariocrud/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb2NydWRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Usuariocrud/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb2NydWRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Usuariocrud/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb2NydWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vg0jtbixw0
+
+[C:/Users/njunior/Documents/projetos/csharp_app/razorandmvc/razorandmvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jvd6m1za4n

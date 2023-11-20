@@ -1,0 +1,6 @@
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce\obj\Debug\net5.0\ecommerce.csproj.AssemblyReference.cache
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce\obj\Debug\net5.0\ecommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce\obj\Debug\net5.0\ecommerce.AssemblyInfoInputs.cache
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce\obj\Debug\net5.0\ecommerce.AssemblyInfo.cs
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce\obj\Debug\net5.0\ecommerce.csproj.CoreCompileInputs.cache
+C:\Users\njunior\Documents\projetos\csharp_app\ecommerce_csharp-master\ecommerce_csharp-master\ecommerce\obj\Debug\net5.0\ecommerce.MvcApplicationPartsAssemblyInfo.cache

@@ -6844,11 +6844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\njunior\\Desktop\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce\\ecommerce.csproj",
+      "projectUniqueName": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce\\ecommerce.csproj",
       "projectName": "ecommerce",
-      "projectPath": "C:\\Users\\njunior\\Desktop\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce\\ecommerce.csproj",
+      "projectPath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce\\ecommerce.csproj",
       "packagesPath": "C:\\Users\\njunior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\njunior\\Desktop\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce\\obj\\",
+      "outputPath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6870,8 +6870,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\njunior\\Desktop\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce.Core\\ecommerce.Core.csproj": {
-              "projectPath": "C:\\Users\\njunior\\Desktop\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce.Core\\ecommerce.Core.csproj"
+            "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce.Core\\ecommerce.Core.csproj": {
+              "projectPath": "C:\\Users\\njunior\\Documents\\projetos\\csharp_app\\ecommerce_csharp-master\\ecommerce_csharp-master\\ecommerce.Core\\ecommerce.Core.csproj"
             }
           }
         }
