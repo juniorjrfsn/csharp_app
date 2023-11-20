@@ -1,0 +1,85 @@
+﻿@page
+@model razorandmvc.Pages.Empresacrud.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<!-- Begin Page Title -->
+<div class="pagetitle">
+    <h1>Escritórios</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">@Html.ActionLink("Home", "Index", "home")</li>
+            <li class="breadcrumb-item"><a asp-page="./Index">Escritórios</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Lista de Escritórios</li>
+        </ol>
+    </nav> 
+</div>
+<!-- End Page Title -->
+<!-- Begin Content -->
+<section class="section dashboard">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<h1>Create</h1>
+
+<h4>Empresa</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Empresa.Emprnome" class="control-label"></label>
+                <input asp-for="Empresa.Emprnome" class="form-control" />
+                <span asp-validation-for="Empresa.Emprnome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empresa.Uidinsert" class="control-label"></label>
+                <input asp-for="Empresa.Uidinsert" class="form-control" />
+                <span asp-validation-for="Empresa.Uidinsert" class="text-danger"></span>
+            </div>
+            <!--div class="form-group" style="display:none;" >
+                <label asp-for="Empresa.Uiddtinsert" class="control-label"></label>
+                <input asp-for="Empresa.Uiddtinsert" class="form-control" />
+                <span asp-validation-for="Empresa.Uiddtinsert" class="text-danger"></span>
+            </!--div-->
+            <div class="form-group">
+                <label asp-for="Empresa.Uidupdate" class="control-label"></label>
+                <input asp-for="Empresa.Uidupdate" class="form-control" />
+                <span asp-validation-for="Empresa.Uidupdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empresa.Uiddtupdate" class="control-label"></label>
+                <input asp-for="Empresa.Uiddtupdate" class="form-control" />
+                <span asp-validation-for="Empresa.Uiddtupdate" class="text-danger"></span>
+            </div> 
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: right;" > 
+                    <div class="form-group"> 
+                        <button type="submit" value="Create" class="btn btn-primary" name="btnCreateEmpr" id="btnCreateEmpr" >
+                            <i class="fa-solid fa-save" style="margin-right: 15px;"></i> Salvar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+                </div>
+            </div> 
+        </div>
+    </div> 
+</section>
+<!-- End Content -->
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

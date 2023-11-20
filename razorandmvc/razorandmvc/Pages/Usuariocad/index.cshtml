@@ -1,0 +1,340 @@
+@{
+    ViewData["Title"] = "Cdastro de usuário";
+}
+<!-- Begin Page Title -->
+<div class="pagetitle">
+    <h1>Cadastro de Usuário</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item">Usuário</li>
+            <li class="breadcrumb-item active" aria-current="page">Cadastro de Usuário</li>
+        </ol>
+    </nav>
+</div>
+<!-- End Page Title -->
+
+<!-- Begin Content -->
+<section class="section dashboard">
+    <form class="text-start needs-validation" name="formUsuario" id="formUsuario" action="" method="post"
+        enctype="multipart/form-data" novalidate>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h4 class="mb-3">Cadastro</h4>
+
+                        <input type="hidden" name="u_id" id="u_id" value="">
+                        <input type="hidden" name="u_foto" id="u_foto" value="">
+                        <input type="hidden" name="u_logon" id="u_logon" value="">
+                        <input type="hidden" name="u_suporte" id="u_suporte" value="">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="u_nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" name="u_nome" id="u_nome" placeholder=""
+                                    value="" required>
+                                <div class="invalid-feedback">Preencha o campo Nome!</div>
+                            </div>
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="u_cpf" class="form-label">cpf</label>
+                                <input type="text" class="form-control" name="u_cpf" id="u_cpf" placeholder="" value=""
+                                    required>
+                                <div class="invalid-feedback">Preencha o campo de CPF!</div>
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="u_data_nascimento" class="form-label">Data de Nascimento</label>
+                                <input type="date" class="form-control" name="u_data_nascimento" id="u_data_nascimento"
+                                    placeholder="" value="">
+                                <div class="invalid-feedback">Preencha a Data de Nascimento!</div>
+                            </div>
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="cli_endereco" class="form-label">Endereço</label>
+                                <input type="text" class="form-control" name="cli_endereco" id="cli_endereco"
+                                    placeholder="" value="">
+                                <div class="invalid-feedback">Preencha o Endereçoo!</div>
+                            </div>
+                        </div>
+
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="u_celular" class="form-label">Celular</label>
+                                <input type="text" class="form-control" name="u_celular" id="u_celular" placeholder=""
+                                    value="" required>
+                                <div class="invalid-feedback">Preencha o celular!</div>
+                            </div>
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="u_phone" class="form-label">Telefone</label>
+                                <input type="text" class="form-control" name="u_phone" id="u_phone" placeholder=""
+                                    value="">
+                                <div class="invalid-feedback">Preencha o Telefone!</div>
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="u_email" class="form-label">Email</label>
+                                <input type="text" class="form-control" name="u_email" id="u_email" placeholder=""
+                                    value="">
+                                <div class="invalid-feedback">Preencha o Email!</div>
+                            </div>
+                            <div class="col-lg-6 col-md6 col-sm-6 col-xs-12">
+                                <label for="u_senha" class="form-label">Senha</label>
+                                <input type="hidden" name="u_senha_atual" id="u_senha_atual"
+                                    value="<?php echo $row_u['u_senha']; ?>">
+                                <input type="password" class="form-control" name="u_senha" id="u_senha" placeholder=""
+                                    value="">
+                                <div class="invalid-feedback">Preencha a senha!</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <label class="form-label" for="empr_id">Escritório</label>
+                                <select class="form-control" data-placeholder="-- Selecione --" name="empr_id"
+                                    id="empr_id">
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <label class="form-label" for="u_admin">Administrador</label>
+                                <select class="form-control" data-placeholder="-- Selecione --" name="u_admin"
+                                    id="u_admin">
+                                    <option value="0">Não</option>
+                                    <option value="1">Sim</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <label class="form-label" for="u_ativo">Ativo</label>
+                                <select class="form-control" data-placeholder="-- Selecione --" name="u_ativo"
+                                    id="u_ativo">
+                                    <option value="1">Sim</option>
+                                    <option value="0">Não</option>
+                                </select>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+
+                        <div class="buttonsBlock">
+                            <button type="button" class="btn btn-primary mb-4 me-4" name="btnSalvar" id="btnSalvar">
+                                <i class="far fa-save"></i> <span style="margin-left: 20px;">Salvar</span>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card m-b-20">
+            <div class="card-body">
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;">
+                        <button type="button" name="buttonNovoMail" id="buttonNovoMail" class="btn btn-primary">
+                            <i class="fas fa-plus-square"></i> Novo Email
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group" id="div-cad-mails" style="display: none;">
+                    <div class="form-row">
+                        <div class="form-group col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                            <input type="text" class="form-control" name="cad_umail_endereco" id="cad_umail_endereco"
+                                placeholder="Email" value="">
+                        </div>
+                        <div class="form-group col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align:right;">
+                            <button type="button" name="buttonAdicionarMail" id="buttonAdicionarMail"
+                                class="btn btn-info">
+                                <i class="fas fa-plus"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="table-responsive">
+                            <table class="table table-striped" id="tablelist_usuario_mails">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: left;">Email</th>
+                                        <th style="text-align: center;width: 70px;">Excluir</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbodyUsuarioMails">
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th style="text-align: left;">Email</th>
+                                        <th style="text-align: center;width: 70px;">Excluir</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card m-b-20">
+            <div class="card-body">
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;">
+                        <button type="button" name="buttonNovoFone" id="buttonNovoFone" class="btn btn-primary">
+                            <i class="fas fa-plus-square"></i> Novo Fone
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group" id="div-cad-fones" style="display: none;">
+                    <div class="form-row">
+                        <div class="form-group col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label class="form-label" for="cad_tpfon_id">Tipo</label>
+                                <select class="form-control" data-placeholder="-- Selecione --" name="cad_tpfon_id"
+                                    id="cad_tpfon_id">
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-1 col-md-1 col-sm-2 col-xs-12">
+                            <label class="form-label" for="cad_ufon_regiao">Região</label>
+                            <input type="text" class="form-control" name="cad_ufon_regiao" id="cad_ufon_regiao"
+                                placeholder="Região" value="+55" readonly="readonly">
+                        </div>
+                        <div class="form-group col-lg-1 col-md-1 col-sm-2 col-xs-12">
+                            <label class="form-label" for="cad_ufon_prefix">Prefixo</label>
+                            <input type="text" class="form-control" name="cad_ufon_prefix" id="cad_ufon_prefix"
+                                placeholder="Prefixo" value="" maxlength="2">
+                        </div>
+                        <div class="form-group col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                            <label class="form-label" for="cad_ufon_num">Número</label>
+                            <input type="text" class="form-control" name="cad_ufon_num" id="cad_ufon_num"
+                                placeholder="Número" value="" maxlength="10">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;">
+                            <button type="button" name="buttonAdicionarFone" id="buttonAdicionarFone"
+                                class="btn btn-info" style="width:120px;">
+                                <i class="fas fa-plus"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="table-responsive">
+                            <table class="table table-striped" id="tablelist_usuario_fones">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center;width: 70px;">Região</th>
+                                        <th style="text-align: left;">Fone</th>
+                                        <th style="text-align: left;">Tipo</th>
+                                        <th style="text-align: center;width: 70px;">Excluir</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbodyUsuarioFones">
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th style="text-align: center;width: 70px;">Região</th>
+                                        <th style="text-align: left;">Fone</th>
+                                        <th style="text-align: left;">Tipo</th>
+                                        <th style="text-align: center;width: 70px;">Excluir</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card m-b-20">
+            <div class="card-body">
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;">
+                        <button type="button" name="buttonNovoEndereco" id="buttonNovoEndereco" class="btn btn-primary">
+                            <i class="fas fa-plus-square"></i> Novo Endereço
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group" id="div-cad-enderecos" style="display: none;">
+                    <div class="form-row">
+                        <div class="form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label class="form-label" for="cad_est_id">Estado</label>
+                                <select class="form-control" data-placeholder="-- Selecione --" name="cad_est_id"
+                                    id="cad_est_id">
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <label class="form-label" for="cad_cid_id">Cidade</label>
+                            <select class="form-control" data-placeholder="-- Selecione --" name="cad_cid_id"
+                                id="cad_cid_id">
+                                <option value="0"> -- Selecione -- </option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <label class="form-label" for="cad_tpend_id">Tipo</label>
+                            <select class="form-control" data-placeholder="-- Selecione --" name="cad_tpend_id"
+                                id="cad_tpend_id">
+                                <option value="1">Principal</option>
+                                <option value="2">Correspondência</option>
+                                <option value="3">Casa</option>
+                                <option value="4">Trabalho</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <label class="form-label" for="cad_uend_cep">CEP</label>
+                            <input type="text" class="form-control" name="cad_uend_cep" id="cad_uend_cep"
+                                placeholder="CEP" value="">
+                        </div>
+                        <div class="form-group col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <label class="form-label" for="cad_uend_bairro">Bairro</label>
+                            <input type="text" class="form-control" name="cad_uend_bairro" id="cad_uend_bairro"
+                                placeholder="Bairro" value="">
+
+                        </div>
+                        <div class="form-group col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <label class="form-label" for="cad_uend_logradouro">Rua, Avenida, etc</label>
+                            <input type="text" class="form-control" name="cad_uend_logradouro" id="cad_uend_logradouro"
+                                placeholder="Rua, Avenida, etc" value="">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <label class="form-label" for="cad_uend_numero">Número</label>
+                            <input type="text" class="form-control" name="cad_uend_numero" id="cad_uend_numero"
+                                placeholder="Número" value="">
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <label class="form-label" for="cad_uend_complemento">Complemento</label>
+                            <input type="text" class="form-control" name="cad_uend_complemento"
+                                id="cad_uend_complemento" placeholder="Complemento" value="">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right;">
+                            <button type="button" name="buttonAdicionarEndereco" id="buttonAdicionarEndereco"
+                                class="btn btn-info">
+                                <i class="fas fa-plus"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div> 
+
+    </form>
+</section>
+<!-- End Content -->

@@ -1,0 +1,13 @@
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\bin\Debug\net7.0\DAL.dll.config
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\DAL\obj\Debug\net7.0\ref\DAL.dll

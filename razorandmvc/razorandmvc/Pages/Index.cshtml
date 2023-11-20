@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<button type="button" name="buscar-enderecos" id="buscar-enderecos">Busca de Endereços em formato JSON</button>
+<br/> 
+<br/>
+<code id="enderecos-json-string"></code>
+<br/>
+<script type="text/javascript">
+    function reqAjax() {
+        var json = null;
+        var requestAjax = $.ajax({
+            url: '/api/Endereco/',
+            data:{ }, type: 'post', dataType: 'json', async: true, cache: false,
+            statusCode: {
+                403: function() { console.log('forbidden'); },
+                404: function() { console.log('page not found'); },
+                415: function() { console.log('Unsupported Media Type'); },
+                405: function() { console.log('method not allowed'); },
+                500: function() { console.log('internal server error'); },
+                502: function() { console.log('Bad Gateway'); }
+            },
+            success: function (json, textStatus, jqXHR) {
+                console.log(json);
+                $('#enderecos-json-string').empty().html( JSON.stringify(json) ); 
+                try{}catch(e){console.log(e.message);}
+            }, 
+            beforeSend: function (jqXHR) { jqXHR.overrideMimeType('application/json; charset=utf-8'); },
+            error: function (XMLHttpRequest, textStatus, errorThrown) { 
+                console.log(XMLHttpRequest); console.log(textStatus); console.log(errorThrown); Swal.fire({ icon: 'warning', title: 'Processo', html: textStatus, timer: 2500 }); 
+            },
+            complete: function (XMLHttpRequest, textStatus) { }
+        }).done(function(){}).fail(function(XMLHttpRequest, textStatus, errorThrown) { console.log(XMLHttpRequest); console.log(textStatus); console.log(errorThrown); }).always(function(){});
+    }
+
+    $(document).ready(function() { 
+        $( 'button[name="buscar-enderecos"]' ).on( "click", function() {
+            console.log( $(this).text() );
+            reqAjax();
+        });
+    });
+</script>
+

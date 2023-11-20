@@ -1,0 +1,4 @@
+cd existing_repo
+git remote add origin https://gitlab.com/ju-jrfsn/razorandmvc.git
+git branch -M main
+git push -uf origin main

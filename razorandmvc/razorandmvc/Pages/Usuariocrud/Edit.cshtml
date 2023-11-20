@@ -1,0 +1,146 @@
+﻿@page
+@model razorandmvc.Pages.Usuariocrud.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+<!-- Begin Page Title -->
+<div class="pagetitle">
+    <h1>Usuários</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">@Html.ActionLink("Home", "Index", "home")</li>
+            <li class="breadcrumb-item"><a asp-page="./Index">Usuários</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Lista de Usuários</li>
+        </ol>
+    </nav> 
+</div>
+<!-- End Page Title -->
+
+<!-- Begin Content -->
+<section class="section dashboard">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<h1>Edit</h1>
+
+<h4>Usuario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Usuario.Uid" />
+            <div class="form-group">
+                <label asp-for="Usuario.Emprid" class="control-label"></label>
+                <select asp-for="Usuario.Emprid" class="form-control" asp-items="ViewBag.Emprid"></select>
+                <span asp-validation-for="Usuario.Emprid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Unome" class="control-label"></label>
+                <input asp-for="Usuario.Unome" class="form-control" />
+                <span asp-validation-for="Usuario.Unome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Ucpf" class="control-label"></label>
+                <input asp-for="Usuario.Ucpf" class="form-control" />
+                <span asp-validation-for="Usuario.Ucpf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Udatanascimento" class="control-label"></label>
+                <input asp-for="Usuario.Udatanascimento" class="form-control" />
+                <span asp-validation-for="Usuario.Udatanascimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uemail" class="control-label"></label>
+                <input asp-for="Usuario.Uemail" class="form-control" />
+                <span asp-validation-for="Usuario.Uemail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Usenha" class="control-label"></label>
+                <input asp-for="Usuario.Usenha" class="form-control" />
+                <span asp-validation-for="Usuario.Usenha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uphone" class="control-label"></label>
+                <input asp-for="Usuario.Uphone" class="form-control" />
+                <span asp-validation-for="Usuario.Uphone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Ucelular" class="control-label"></label>
+                <input asp-for="Usuario.Ucelular" class="form-control" />
+                <span asp-validation-for="Usuario.Ucelular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Ufoto" class="control-label"></label>
+                <input asp-for="Usuario.Ufoto" class="form-control" />
+                <span asp-validation-for="Usuario.Ufoto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uadmin" class="control-label"></label>
+                <input asp-for="Usuario.Uadmin" class="form-control" />
+                <span asp-validation-for="Usuario.Uadmin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uativo" class="control-label"></label>
+                <input asp-for="Usuario.Uativo" class="form-control" />
+                <span asp-validation-for="Usuario.Uativo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Ulogon" class="control-label"></label>
+                <input asp-for="Usuario.Ulogon" class="form-control" />
+                <span asp-validation-for="Usuario.Ulogon" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Usuporte" class="control-label"></label>
+                <input asp-for="Usuario.Usuporte" class="form-control" />
+                <span asp-validation-for="Usuario.Usuporte" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uidinsert" class="control-label"></label>
+                <input asp-for="Usuario.Uidinsert" class="form-control" />
+                <span asp-validation-for="Usuario.Uidinsert" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uiddtinsert" class="control-label"></label>
+                <input asp-for="Usuario.Uiddtinsert" class="form-control" />
+                <span asp-validation-for="Usuario.Uiddtinsert" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uidupdate" class="control-label"></label>
+                <input asp-for="Usuario.Uidupdate" class="form-control" />
+                <span asp-validation-for="Usuario.Uidupdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario.Uiddtupdate" class="control-label"></label>
+                <input asp-for="Usuario.Uiddtupdate" class="form-control" />
+                <span asp-validation-for="Usuario.Uiddtupdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+
+
+
+                </div>
+            </div> 
+        </div>
+    </div> 
+</section>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

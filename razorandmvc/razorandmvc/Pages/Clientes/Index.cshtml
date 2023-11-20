@@ -1,0 +1,96 @@
+﻿@page
+@model razorandmvc.Pages.Clientes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<!--p>
+    <a asp-page="Create">Create New</a>
+</p-->
+<div class="container" style="overflow-y: auto;overflow-x: auto;">
+
+    <table class="table table-striped" >
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Clinome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Clicpf)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Clidatanascimento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Cliendereco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Cliphone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Climail)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Uidinsert)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].UiddtInsert)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Uidupdate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cliente[0].Uiddtupdate)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Cliente)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Clinome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Clicpf)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Clidatanascimento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cliendereco)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cliphone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Climail)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Uidinsert)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UiddtInsert)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Uidupdate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Uiddtupdate)
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Cliid">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.Cliid">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Cliid">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,326 @@
+﻿@page
+@model razorandmvc.Pages.Empresacrud.IndexModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+<!-- Begin Page Title -->
+<div class="pagetitle">
+    <h1>Escritórios</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">@Html.ActionLink("Home", "Index", "home")</li>
+            <li class="breadcrumb-item"><a asp-page="./Index">Escritórios</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Lista de Escritórios</li>
+        </ol>
+    </nav> 
+</div>
+<!-- End Page Title -->
+<!-- Begin Content -->
+<section class="section dashboard">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: right;" > 
+                    <a  asp-page="Create"  class="btn btn-info" name="btnNEmpr" id="btnNEmpr" >
+                        <i class="fa-regular fa-building"></i><i class="fa-solid fa-plus" style="margin-right: 15px;"></i> Nova Empresa
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="table-responsive" id="table-usuario-html">
+						<h1>Index</h1>
+						<table id="table_empr_" class="table table-hover table-striped table-bordered">
+							<thead>
+								<tr>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Emprid)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Emprnome)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uidinsert)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uiddtinsert)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uidupdate)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uiddtupdate)</th>
+									<th style="text-align: center;width: 70px;">Editar</th>
+									<th style="text-align: center;width: 70px;">Detalhes</th>
+									<th style="text-align: center;width: 70px;">Excluir</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model.Empresa) {
+								<tr>
+									<td style="text-align: center;width: 70px;">@Html.DisplayFor(modelItem => item.Emprid)</td>
+									<td>@Html.DisplayFor(modelItem => item.Emprnome)</td>
+									<td>@Html.DisplayFor(modelItem => item.Uidinsert)</td>
+									<td>@Html.DisplayFor(modelItem => item.Uiddtinsert)</td>
+									<td>@Html.DisplayFor(modelItem => item.Uidupdate)</td>
+									<td>@Html.DisplayFor(modelItem => item.Uiddtupdate)</td>
+									<td style="text-align: center;width: 70px;">
+										<a asp-page="./Edit" asp-route-id="@item.Emprid" class=" text-warning"><i class="fas fa-edit"></i></a>
+									</td>
+									<td style="text-align: center;width: 70px;">
+										<a asp-page="./Details" asp-route-id="@item.Emprid" class=" text-info"><i class="fas fa-edit"></i></a>
+									</td>
+									<td style="text-align: center;width: 70px;">
+										<a asp-page="./Delete" asp-route-id="@item.Emprid" class=" text-danger"><i class="fas fa-trash-alt"></i></a>
+									</td>
+								</tr>
+								}
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Emprid)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Emprnome)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uidinsert)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uiddtinsert)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uidupdate)</th>
+									<th>@Html.DisplayNameFor(model => model.Empresa[0].Uiddtupdate)</th>
+									<th style="text-align: center;width: 70px;">Editar</th>
+									<th style="text-align: center;width: 70px;">Detalhes</th>
+									<th style="text-align: center;width: 70px;">Excluir</th>
+								</tr>
+							</tfoot>
+						</table> 
+						<!-- Data tables -->
+
+						<script type="text/javascript">
+
+							function processDoc11_(doc) {  
+								doc.content[1].table.body[0][0].alignment = 'center';
+								doc.content[1].table.body[0][1].alignment = 'center';
+								doc.content[1].table.body[0][2].alignment = 'center';
+
+								doc.content[1].table.body[0][3].alignment = 'center';
+								doc.content[1].table.body[0][4].alignment = 'center';
+								doc.content[1].table.body[0][5].alignment = 'center';
+
+								let table = doc.content[1].table;
+								doc.content[1].layout = null; // 'noBorders' 'Borders';
+								doc.content[0].text = 'Convênios';
+								doc.content[0].margin = [0, 0, 0, 0];
+								doc.content[1].margin = [0, 0, 0, 0]; // larguras alteradas
+								console.log(doc); 
+								for(i = 1; i < table.body.length; i++){ // skip table header row (i = 0)
+									// table[i][3].text = " "; // couldn't be bothered clearing the Age column sample data above :)
+									// table[i][3].fillColor = "#00" + Math.round((i / 9) * 255).toString(16) + "00"; // ( divided by 9 since 9 rows in my example) 
+									table.body[i][0].alignment = 'left'; 
+									table.body[i][1].alignment = 'left'; 
+									table.body[i][2].alignment = 'left'; 
+
+									table.body[i][3].alignment = 'left'; 
+									table.body[i][4].alignment = 'left'; 
+									table.body[i][5].alignment = 'left';
+
+									table.body[i][0].border = [true,true,false,true];
+									table.body[i][1].border = [false,true,false,true];
+									table.body[i][2].border = [false,true,false,true];
+									table.body[i][3].border = [false,true,false,true];
+									table.body[i][4].border = [false,true,false,true];
+									table.body[i][5].border = [false,true,true,true];
+
+									var tr_length = table.body[i].length;
+									for(jj = 0; jj < tr_length; jj++){ 
+										if (table.body[i][3].text !== '1') {
+											table.body[i][jj].fillColor = '#dc3545';   
+										}else{
+											if(table.body[i][5].text !== '1') {
+												table.body[i][jj].fillColor = '#ffc107';   
+											}else{
+												table.body[i][jj].fillColor = '#198754';  
+											}
+										}
+									}
+								}
+								// modify the PDF to use a different default font: 
+								var i = 1;
+							}
+
+							$(document).ready(function() { 
+								var table_01 = $('#table_empr_').DataTable({
+								'language': {  url: 'lib/DataTables/localisation/pt-BR.json' }, 
+								'dom': 'Bfrtip', 
+								'buttons': [
+									{
+										extend: 'print',
+										autoFilter: true,
+										sheetName: 'Imprimir',
+										text : '<i class="fas fa-print"></i>', 
+										orientation: 'portrait',
+										customize: function (doc) {
+											/*
+												$(doc.document.body).find('table thead tr th:nth-child(1)').css('text-align', 'right').css('padding-left','20px');
+												$(doc.document.body).find('table thead tr th:nth-child(2)').css('text-align', 'right').css('padding-left','20px');
+												$(doc.document.body).find('table thead tr th:nth-child(3)').css('text-align', 'right').css('padding-left','20px');
+												$(doc.document.body).find('table tbody tr td:nth-child(1)').css('text-align', 'right').css('padding-left','20px');
+												$(doc.document.body).find('table tbody tr td:nth-child(2)').css('text-align', 'right').css('padding-left','20px');
+												$(doc.document.body).find('table tbody tr td:nth-child(3)').css('text-align', 'right').css('padding-left','20px');
+											*/
+										},
+										exportOptions: {
+											columns: [0, 1,2,3,4,5],
+											stripHtml: true 
+										}
+									},
+									{
+										extend: 'pdfHtml5',
+										autoFilter: true,
+										sheetName: 'PDF',
+										text : '<i class="far fa-file-pdf text-danger"></i>',
+										orientation: 'portrait',
+										pageSize: 'A4', 
+										border: [true,true,true,true],
+										content: [{ style: 'fullWidth' }],
+										styles: { // style for printing PDF body
+											fullWidth: { fontSize: 18, bold: true, alignment: 'right' } 
+										},
+										customize : function(doc){
+											// doc.content[1].table.widths = Array(doc.content[1].table.body[0].length + 1).join('*').split('');
+											// doc.content[1].table.widths = ['20%','40%','40%','20%'];
+											// doc.styles["tableBodyOdd"] = { border: [true,true,true,true] }; 
+
+											processDoc11_(doc);
+										},
+										exportOptions: {
+											// columns: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+											columns: [0, 1,2,3,4,5],
+											stripHtml: true,
+
+											modifier: {
+											pageMargins: [ 0, 0, 0, 0 ], // try #3 setting margins
+											margin: [ 0, 0, 0, 0 ], // try #4 setting margins
+											alignment: 'center' 
+											}
+											, body : {margin: [ 0, 0, 0, 0 ], pageMargins: [ 0, 0, 0, 0 ]} // try #5 setting margins         
+											//, columns: [0,1] //column id visible in PDF    
+											//, columnGap: 1 // optional space between columns
+										}
+
+									}, 
+									{
+										extend: 'excelHtml5',
+										autoFilter: true,
+										sheetName: 'Excel',
+										text : '<i class="far fa-file-excel text-success"></i>',
+										title: 'Usuários', 
+										orientation: 'portrait',
+										exportOptions: {
+											columns: [0, 1,2,3,4,5],
+										}
+									},
+									{
+										extend: 'colvis',
+										autoFilter: true,
+										sheetName: 'colvis',
+										text : '<i class="fas fa-columns text-primary"></i>',
+										orientation: 'portrait',
+										customize : function(doc){ 
+											doc.content[1].table.widths = Array(doc.content[1].table.body[0].length + 1).join('*').split('');
+											var rowCount = doc.content[1].table.body.length;
+											for (i = 0; i < rowCount+1; i++) {
+												doc.content[1].table.body[i][4].alignment = 'right';
+												doc.content[1].table.body[i][5].alignment = 'right';
+											}
+										},
+										exportOptions: {
+											columns: [0, 1, 2, 3, 4,5,6,7,8]
+										}
+									}
+								],
+								rowCallback: function(row, data, index) { // sets the cell colours for DataTables
+									/*if(data[3] !== "1") {
+										//$('td:eq(2)', row).css('background-color', '#fbed1d'); // yellow
+										$('td', row).css('background-color', '#dc3545!important');
+									}else{
+										if(data[5] !== "1") { // Instituição não cadastrada
+											$('td', row).css('background-color', '#ffc107!important');
+										}else{
+											$('td', row).css('background-color', '#198754!important');
+										}
+									}
+									*/
+								},
+								columns : [
+									{"width": "70px"},
+									{"width": "auto"},
+									{"width": "auto"},
+									{"width": "auto"},
+									{"width": "auto"},
+									{"width": "auto"},
+									{"width": "70px"}, 
+									{"width": "70px"}, 
+									{"width": "70px"} 
+								]
+								, 'columnDefs':[
+									{ 'targets': [ 0, 1, 2, 3, 4,5,6,7,8 ], 'visible': true }
+									//,{ 'targets': [ 2, 10, 12, 14, 16, 18 ], 'visible': false }
+								]
+								, autoFill: true //,
+								});
+								// table_01.buttons().container().appendTo('#table_empr__wrapper .col-md-6:eq(0)');  
+							}); 
+
+							function ic2_pp_(){
+								$('input[type="search"]').attr( 'class','form-control');
+								$('input[type="search"]').css( 'width','130px');
+
+								$('.dt-buttons button').attr( 'class','form-control');
+								$('.dt-buttons button').css( 'width','50px');
+								$('.dt-buttons button').css( 'float','left');
+								$('.dt-buttons button').css( 'cursor','pointer');
+								$('.dt-buttons button').css( 'padding','2px 2px 2px 2px');
+								$('.dt-buttons button i').css( 'font-size','18px');
+								$('.dt-button-collection').css( 'width','350px');
+								$('.dt-button-collection button.form-control').css( 'width','auto'); 
+							}
+
+							var intervalo = window.setInterval(function(){ ic2_pp_(); }, 500);
+							window.setTimeout(function() {
+								clearInterval(intervalo);
+							}, 20000);
+						</script>
+						<!-- Data tables -->
+						<style type="text/css">
+							table#table_empr_ thead tr th, 
+							table#table_empr_ tbody tr td, 
+							table#table_empr_ tbody tr td input[type="text"],  
+							table#table_empr_ tbody tr td center select, 
+							table#table_empr_ tfoot tr th{
+								font-size: 14px;
+							}
+							table#table_empr_ tbody tr td{
+								/*padding:0.20rem;*/
+							}
+							/* 
+								#table_empr_ tbody tr td:nth-child(2)  {width: 100px;}							
+								#table_empr_ tbody tr td:nth-child(4)  {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(5)  {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(6)  {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(7)  {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(8)  {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(9)  {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(10) {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(11) {padding-right: 20px;}
+								#table_empr_ tbody tr td:nth-child(12) {padding-right: 20px;}
+								#table_empr_ tfoot tr th:nth-child(5)  {padding-right: 20px;}
+							*/
+						</style>
+						<script type="text/javascript">
+							$("#table_empr_ > tbody > tr > td input.coluna_valor").maskMoney({thousands:'', decimal:',', affixesStay: false});
+						</script>
+						<style type="text/css">
+							#table_empr_ > tbody > tr > td.td_coluna_valor{ width: 110px; }
+							#table_empr_ > tbody > tr > td input.coluna_valor { width:110px; text-align: right;}
+						</style> 
+						<script type="text/javascript">
+							$(document).ready(function(){
+								$('input.novo_valor_proc').maskMoney({prefix:'', allowNegative: true, thousands:'.', decimal:',', affixesStay: false});
+							});
+						</script>  
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div> 
+</section>
+<!-- End Content -->

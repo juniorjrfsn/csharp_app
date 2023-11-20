@@ -1,0 +1,47 @@
+cd existing_repo
+git remote add origin https://gitlab.com/ju-jrfsn/digileptonfinanc.git
+git branch -M main
+git push -uf origin main
+
+
+#### git clone https://gitlab.com/ju-jrfsn/digileptonfinanc.git
+
+##################################################
+#### dir 	= 	cd  */primedigital
+
+####   			git config --global user.email "junior.nsfj@protonmail.com"
+####   			git config --global user.name "juniornsfj"
+#### snh 	=	#Jr-1980!
+#### snh 	=	#Junior#1980#
+
+#### 			git config --global --list
+
+################ subir alterações ################ 
+## dir = cd  */primedigital
+## git commit -a
+## git status
+## git merge main
+
+git add .
+git commit -m "Commit banco de dados para uso local 0000.0000.0000.0006"
+git push origin 
+
+
+## main 
+git add .
+git commit -m "Commit banco de dados para uso local 0000.0000.0000.0006"
+git push origin main
+
+
+################ subir alterações ################ 
+
+
+################ baixar atualizações ############# 
+git fetch 
+git pull origin  
+
+### main 
+git fetch 
+git pull origin main
+################ baixar atualizações #############
+#######################################################################

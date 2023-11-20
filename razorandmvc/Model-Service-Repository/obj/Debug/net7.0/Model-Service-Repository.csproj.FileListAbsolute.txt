@@ -1,0 +1,4 @@
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\Model-Service-Repository\obj\Debug\net7.0\Model-Service-Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\Model-Service-Repository\obj\Debug\net7.0\Model-Service-Repository.AssemblyInfoInputs.cache
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\Model-Service-Repository\obj\Debug\net7.0\Model-Service-Repository.AssemblyInfo.cs
+C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\Model-Service-Repository\obj\Debug\net7.0\Model-Service-Repository.csproj.CoreCompileInputs.cache

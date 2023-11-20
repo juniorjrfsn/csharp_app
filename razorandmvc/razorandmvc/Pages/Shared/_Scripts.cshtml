@@ -1,0 +1,79 @@
+
+<script type="text/javascript" src="~/lib/form-4.3.0/src/jquery.form.js"></script>
+<script type="text/javascript" src="~/lib/sweetalert2-11.1.9/src/sweetalert2.min.js"></script>
+<script type="text/javascript" src="~/lib/fontawesome-free-6.2.1-web/js/all.js"></script>
+
+<!-- Vendor JS Files -->
+<script src="~/assets/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/assets/vendor/chart.js/chart.min.js"></script>
+<script src="~/assets/vendor/echarts/echarts.min.js"></script>
+<script src="~/assets/vendor/quill/quill.min.js"></script>
+<script src="~/assets/vendor/simple-datatables/simple-datatables.js"></script>
+<!--script src="assets/vendor/tinymce/tinymce.min.js"></script-->
+<script src="~/assets/vendor/php-email-form/validate.js"></script>
+<script src="~/lib/tinymce/js/tinymce/tinymce.min.js" ></script>
+<!-- Template Main JS File -->
+<script src="~/assets/js/main.js"></script>
+<script src="~/lib/highlight/highlight.min.js"></script>
+<script src="~/lib/Inputmask-5.0.7/dist/inputmask.min.js"></script>
+<script src="~/lib/Inputmask-5.0.7/dist/jquery.inputmask.min.js"></script>
+<script src="~/lib/Inputmask-5.0.7/dist/bindings/inputmask.binding.js"></script>
+<script type="text/javascript" src="lib/DataTables-v1.13.1/datatables.min.js"></script>
+<script type="text/javascript" src="lib/DataTables-v1.13.1/Buttons-2.3.3/js/buttons.dataTables.min.js"></script> 
+
+<div id="scriptlg"></div>
+
+
+<script type="text/javascript"> 
+    $(function(e) {
+        $( '#toggle-sidebar-btn' ).on( 'click' , function() { 
+            $( '#toggle_sidebar_btn' ).click();
+        });
+    });
+    </script>
+    <script type="text/javascript">
+    $(function(e) {
+        //  console.log('#sidebar a[href="' + window.location.pathname + '"]');
+        // $('#sidebar a[href="' + window.location.pathname + '"]').click();
+        //$('#sidebar a[href="' + window.location.pathname + '"]').attr('class', 'router-link-active active');
+
+        var pagina = window.location.protocol +'//'+ window.location.hostname + ((window.location.pathname !== undefined && window.location.pathname !== null && window.location.pathname !== '')? window.location.pathname:null)
+        // console.log(pagina);
+        $( "#sidebar-nav li.menu" ).each(function(index, element ) {
+        var  href   = $( this ).find( 'ul.submenu li a[href="' + pagina + '"]').attr('href');
+
+        // console.log('pagina = '+pagina);
+        if(href === pagina){ 
+            $( this ).find( 'a[data-bs-toggle="collapse"]' ).attr('aria-expanded','true');
+            $( this ).find( 'a[data-bs-toggle="collapse"]' ).attr('class','dropdown-toggle');
+            $( this ).find( "ul" ).attr('class','submenu list-unstyled collapse show');
+            $( this ).find( 'ul li a[href="' + pagina + '"]' ).attr('class','router-link-active active');
+        }
+
+        var  wlh  = $( this ).find( 'ul.submenu li a[href="' + window.location.href + '"]').attr('href');
+        if(wlh === window.location.href ){ 
+            $( this ).find( 'a[data-bs-toggle="collapse"]' ).attr('aria-expanded','true');
+            $( this ).find( 'a[data-bs-toggle="collapse"]' ).attr('class','dropdown-toggle');
+            $( this ).find( "ul" ).attr('class','submenu list-unstyled collapse show');
+            $( this ).find( 'ul li a[href="' + window.location.href + '"]' ).attr('class','router-link-active active');
+        }
+        /*
+            $( $( ul ).find( "li a" )  ).each(function(index2, element2 ) {
+            var  href = $(this).attr( "href");
+            console.log(href);
+            });
+        */
+
+        /*         X       
+            $( element ).css( "backgroundColor", "yellow" );
+            if ( $( this ).is( "#stop" ) ) {
+            $( "span" ).text( "Stopped at div index #" + index );
+            return false;
+            }
+        */
+        });
+
+    });
+</script>   
+

@@ -1,0 +1,10 @@
+﻿<ul>
+@using razorandmvc.Pages.Shared
+@foreach (var m in _Menu.MenuLinks)
+{
+    <li style="display: inline-block;background:#ffffbb;">
+        <a href="@Html.DisplayFor(modelItem => m.url)">@Html.DisplayFor(modelItem => m.Pagina)</a>
+    </li>
+}
+</ul>
+ 

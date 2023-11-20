@@ -1,0 +1,81 @@
+﻿@page
+@model razorandmvc.Pages.Cadcli.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Cliente</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Cliente.Cliid" />
+            <div class="form-group">
+                <label asp-for="Cliente.Clinome" class="control-label"></label>
+                <input asp-for="Cliente.Clinome" class="form-control" />
+                <span asp-validation-for="Cliente.Clinome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Clicpf" class="control-label"></label>
+                <input asp-for="Cliente.Clicpf" class="form-control" />
+                <span asp-validation-for="Cliente.Clicpf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Clidatanascimento" class="control-label"></label>
+                <input asp-for="Cliente.Clidatanascimento" class="form-control" />
+                <span asp-validation-for="Cliente.Clidatanascimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Cliendereco" class="control-label"></label>
+                <input asp-for="Cliente.Cliendereco" class="form-control" />
+                <span asp-validation-for="Cliente.Cliendereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Cliphone" class="control-label"></label>
+                <input asp-for="Cliente.Cliphone" class="form-control" />
+                <span asp-validation-for="Cliente.Cliphone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Climail" class="control-label"></label>
+                <input asp-for="Cliente.Climail" class="form-control" />
+                <span asp-validation-for="Cliente.Climail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Uidinsert" class="control-label"></label>
+                <input asp-for="Cliente.Uidinsert" class="form-control" />
+                <span asp-validation-for="Cliente.Uidinsert" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.UiddtInsert" class="control-label"></label>
+                <input asp-for="Cliente.UiddtInsert" class="form-control" />
+                <span asp-validation-for="Cliente.UiddtInsert" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Uidupdate" class="control-label"></label>
+                <input asp-for="Cliente.Uidupdate" class="form-control" />
+                <span asp-validation-for="Cliente.Uidupdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cliente.Uiddtupdate" class="control-label"></label>
+                <input asp-for="Cliente.Uiddtupdate" class="form-control" />
+                <span asp-validation-for="Cliente.Uiddtupdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
