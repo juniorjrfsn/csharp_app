@@ -5,7 +5,9 @@
     "\\razorandmvc\\razorandmvc",
     "\\razorandmvc\\razorandmvc\\Pages",
     "\\razorandmvc\\razorandmvc\\Pages\\Clientes",
-    "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master"
+    "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master",
+    "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master\\RepositoryServicePatternDemo.Core",
+    "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master\\RepositoryServicePatternDemo.Core\\Repositories"
   ],
   "SelectedNode": "\\razorandmvc\\razorandmvc\\Pages\\Clientes\\Index.cshtml.cs",
   "PreviewInSolutionExplorer": false

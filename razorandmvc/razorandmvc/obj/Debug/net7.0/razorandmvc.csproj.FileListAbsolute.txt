@@ -298,3 +298,14 @@ C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\razorandmvc\obj\Debug\net7
 C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.pdb
 C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.genruntimeconfig.cache
 C:\Users\njunior\Documents\projetos\C#APP\razorandmvc\razorandmvc\obj\Debug\net7.0\ref\razorandmvc.dll
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.csproj.AssemblyReference.cache
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.AssemblyInfoInputs.cache
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.AssemblyInfo.cs
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.csproj.CoreCompileInputs.cache
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.RazorAssemblyInfo.cache
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.RazorAssemblyInfo.cs
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.dll
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\refint\razorandmvc.dll
+C:\Users\njunior\Documents\projetos\csharp_app\razorandmvc\razorandmvc\obj\Debug\net7.0\razorandmvc.pdb

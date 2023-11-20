@@ -1,0 +1,11 @@
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\bin\Debug\net5.0\RepositoryServicePatternDemo.Core.deps.json
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\bin\Debug\net5.0\RepositoryServicePatternDemo.Core.dll
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\bin\Debug\net5.0\RepositoryServicePatternDemo.Core.pdb
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\RepositoryServicePatternDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\RepositoryServicePatternDemo.Core.AssemblyInfoInputs.cache
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\RepositoryServicePatternDemo.Core.AssemblyInfo.cs
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\RepositoryServicePatternDemo.Core.csproj.CoreCompileInputs.cache
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\RepositoryServicePatternDemo.Core.dll
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\refint\RepositoryServicePatternDemo.Core.dll
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\RepositoryServicePatternDemo.Core.pdb
+C:\Users\njunior\Desktop\RespositoryServicePatternDemo-master (1)\RespositoryServicePatternDemo-master\RepositoryServicePatternDemo.Core\obj\Debug\net5.0\ref\RepositoryServicePatternDemo.Core.dll
