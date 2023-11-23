@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\razorandmvc",
-    "\\razorandmvc\\razorandmvc",
-    "\\razorandmvc\\razorandmvc\\Pages",
-    "\\razorandmvc\\razorandmvc\\Pages\\Clientes",
+    "\\ecommerce_csharp-master\\ecommerce_csharp-master",
+    "\\RespositoryServicePatternDemo-master (1)",
     "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master",
     "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master\\RepositoryServicePatternDemo.Core",
-    "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master\\RepositoryServicePatternDemo.Core\\Repositories"
+    "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master\\RepositoryServicePatternDemo.Core\\Services"
   ],
-  "SelectedNode": "\\razorandmvc\\razorandmvc\\Pages\\Clientes\\Index.cshtml.cs",
+  "SelectedNode": "\\RespositoryServicePatternDemo-master (1)\\RespositoryServicePatternDemo-master\\RepositoryServicePatternDemo.Core\\Services\\FoodService.cs",
   "PreviewInSolutionExplorer": false
 }
